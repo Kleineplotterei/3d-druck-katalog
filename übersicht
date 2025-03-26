@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>3D-Druck Katalog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F5F3F7;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .product {
+            display: flex;
+            align-items: center;
+            background: #EFE7DD;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .product img {
+            max-width: 150px;
+            border-radius: 8px;
+            margin-right: 15px;
+        }
+        .product-info {
+            flex: 1;
+        }
+        .whatsapp-btn {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #25D366;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>3D-Druck Katalog</h1>
+        <div class="product">
+            <img src="produkt1.jpg" alt="Produkt 1">
+            <div class="product-info">
+                <h2>Produktname 1</h2>
+                <p>Kurze Beschreibung des Produkts. Material, Größe, etc.</p>
+                <strong>Preis: 25€</strong>
+                <br>
+                <a href="https://wa.me/YOURNUMBER" class="whatsapp-btn">Per WhatsApp bestellen</a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="produkt2.jpg" alt="Produkt 2">
+            <div class="product-info">
+                <h2>Produktname 2</h2>
+                <p>Kurze Beschreibung des Produkts. Material, Größe, etc.</p>
+                <strong>Preis: 30€</strong>
+                <br>
+                <a href="https://wa.me/YOURNUMBER" class="whatsapp-btn">Per WhatsApp bestellen</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
